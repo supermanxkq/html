@@ -1,0 +1,78 @@
+ /*banner*/
+ .swiper-container{
+ 	width: 100%;
+ }
+ .swiper-slide img{
+ 	width: 100%;
+ }
+ .swiper-slide{
+ 	position:relative;
+ }
+.swiper-slide .state{
+	position: absolute;
+	width:800px;
+	bottom: 50px;
+	left: 50%;
+	transform:translate(-50%,0);
+	-webkit-transform: translate(-50%,0);
+	color:#FFFFFF;
+}
+.state h4{
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.state p{
+	font-size:14px;
+	color: #FFFFFF;
+}
+/*end*/
+
+/*新闻动态*/
+.news-cont ul{
+	padding-bottom: 40px;
+}
+.news-cont ul li{
+	height:130px;
+	margin-bottom: 15px;
+}
+.news > h3{
+	font-size: 22px;
+	color: #333333;
+	line-height: 50px;
+	border-bottom: 1px solid #EFEFF4;
+}
+.list-pic{
+	display: block;
+	width: 200px;
+	height:125px;
+	float: left;
+	margin-right: 20px;
+}
+.pic-fig h3 a{
+	font-size: 18px;
+	color: #FF8400;
+}
+.pic-fig h3 a:hover{
+	text-decoration: underline;
+}
+.pic-fig span{
+	color: #333;
+	font-size: 14px;
+}
+
+.pic-fig p{
+	font-size:16px;
+	margin-top: 15px;
+}
+.news-cont figcaption{
+	height: 130px;
+}
+.more{
+	float: right;
+	color: #333333;
+	font-size: 16px;
+}
+.more:hover{
+	text-decoration: underline;
+}

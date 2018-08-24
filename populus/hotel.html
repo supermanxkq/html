@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="内蒙古旅游，阿拉善盟，胡杨林，门票预订，沙漠越野，酒店住宿，旅游路线，景点推荐，大漠童话，额济纳旗"/>
+		<meta name="description" content="额济纳旗是内蒙古自治区阿拉善盟辖下的一个旗.以胡杨林称著。额济纳是世界上仅存的三大胡杨林地之一，最负盛名的是金秋胡杨的美景。金秋十月，内蒙古额济纳旗的胡杨林迎来最佳观赏期。"/>
+		<title>额济纳胡杨林旅游-酒店住宿</title>
+		<link rel="stylesheet" href="common/css/reset.css" />
+		<link rel="stylesheet" href="common/css/common.css" />
+		<link rel="stylesheet" href="common/lib/bootstrap-3.3.7-dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="common/lib/dataTimerPicker/bootstrap-datetimepicker.min.css" />
+		<link rel="stylesheet" href="css/hotel.css" />
+	</head>
+	<body>
+		<header>
+			<div class="head-cont">
+				<div class="container">
+					<ul class="navigation-cont clearfix">
+						<li ><a href="index.html">阿拉善胡杨林旅游网</a></li>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="">景点美食</a></li>
+						<li class="active"><a href="">家庭旅店/酒店</a></li>
+						<li><a href="">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="container">
+				<div class="main-content">
+					<form action="">
+						<div class="check-in-time">
+							<span class="time_label">入住时间：</span>
+							<div class="time-item">
+								<div class='input-group date' id='datetimepicker1'>
+									<input type='text' class="form-control" readOnly id="beginDate" name="beginDate" /> 
+									<span class="input-group-addon"> 
+										<span class="glyphicon glyphicon-calendar"></span>
+									</san>
+								</div>
+							</div>
+							<span class="time_label">离店时间：</span>
+							<div class="time-item">
+								<div class='input-group date' id='datetimepicker2'>
+									<input type='text' class="form-control" readOnly id="endDate"
+										name="endDate" /> <span class="input-group-addon"> <span
+										class="glyphicon glyphicon-calendar"></span>
+									</span>
+								</div>
+							</div>
+						</div>
+						<ul class="condition-cont">
+							<li>
+								<span class="sign title_serach glyphicon glyphicon-map-marker"><font class="title_txt">位置：</font></span> 
+									
+								<label for="any">
+									<input type="radio" class="position_search"name="positionId" value="" id="any" checked="checked">不限
+								</label>
+								<label for="BH">
+									<input type="radio" class="position_search" name="positionId" value="BH" id="BH">北环
+								</label>
+								<label for="YDQ">
+									<input type="radio" name="positionId"  class="position_search" value="YDQ" id="YDQ">一道桥
+								</label>
+								<label for="YGXQ">
+										<input type="radio" class="position_search"name="positionId" value="YGXQ" id="YGXQ">阳光小区
+								</label>
+							</li>
+							<li>
+								<span class="sign title_serach glyphicon glyphicon-yen"><font class="title_txt">价格：</font></span> 
+								
+								<label for="no">
+									<input type="radio" class="price_search" name="startPrice" value="0" id="no" checked="checked">不限
+								</label>
+								<label for="low">
+									<input type="radio" class="price_search" name="startPrice" value="1" id="low">150以下
+								</label>
+								<label for="low_little">
+									<input type="radio" name="startPrice" value="2" id="low_little" class="price_search">150-300元
+								</label>
+								<label for="middle">
+									<input type="radio" class="price_search" name="startPrice" value="3" id="middle">300-450元
+								</label>
+								<label for="high">
+									<input type="radio" class="price_search" name="startPrice" value="4" id="high">450-600元
+								</label>
+								<label for="higher">
+									<input type="radio" name="startPrice" value="5" id="higher" class="price_search">600以上
+								</label>
+							</li>
+							<li>
+								<span class="sign title_serach glyphicon glyphicon-star"><font class="title_txt">星级：</font></span>
+								<label for="all_hotelType">
+									<input type="radio" class="hotelType_search" checked="checked" name="hotelType"  value="" id="all_hotelType">不限
+								</label>
+								<label for="JJKZ">
+									<input type="radio"  class="hotelType_search" name="hotelType" value="JJKZ" id="JJKZ">经济/客栈
+								</label>
+								<label for="SXSS">
+									<input type="radio" name="hotelType" value="SXSS" id="SXSS" class="hotelType_search">三星/舒适
+								</label>
+								<label for="SXGD">
+									<input type="radio" class="hotelType_search" name="hotelType" value="SXGD" id="SXGD">四星/高档
+								</label>
+								<label for="WXHH">
+									<input type="radio" class="hotelType_search" name="hotelType" value="WXHH" id="WXHH">五星/豪华
+								</label>
+								<label for="GY">
+									<input type="radio" name="hotelType" value="GY" id="GY" class="hotelType_search">公寓
+								</label>
+							</li>
+							<li>
+								<span class="sign title_serach glyphicon glyphicon-king"><font class="title_txt">服务：</font></span>
+								<label for="all_service">
+									<input type="checkbox" name="wid" class="" checked="checked" value="1" id="all_service">不限
+								</label>
+								<label for="wifi">
+									<input type="checkbox" name="wifi" class="service_search" value="1" id="wifi">免费wifi
+								</label>
+								<label for="meeting">
+									 <input type="checkbox" name="meeting" value="1" id="meeting"  class="service_search">会议设施
+								</label>
+								<label for="parking">
+									<input type="checkbox" name="parking" value="1" id="parking" class="service_search">免费停车
+								</label>
+								<label for="wakeUp">
+									<input type="checkbox" name="wakeUp" value="1" class="service_search" id="wakeUp">叫醒服务
+								</label>
+								<label for="gym">
+									 <input type="checkbox" name="gym" value="1" id="gym">健身房
+								</label>
+								<label for="resturant">
+									<input type="checkbox" name="restaurant" value="1" class="service_search"
+									id="resturant">餐厅
+								</label>
+								<label for="swimming">
+									 <input type="checkbox" class="service_search" name="swimming" value="1" id="swimming">游泳
+								</label>
+							</li>
+							<li>
+								<span class="sign title_serach glyphicon glyphicon-user"><font class="title_txt">人数：</font></span>
+								<label for="no_one">
+									<input type="radio" class="people_search" name="maxLivePeople" value="0" id="no_one" checked="checked">不限
+								</label>
+								<label for="one">
+									<input type="radio" class="people_search" name="maxLivePeople" value="1" id="one">1人
+								</label>
+								<label for="two">
+									 <input type="radio" name="maxLivePeople" class="people_search" value="2" id="two">2人
+								</label>
+								<label for="three">
+									<input class="people_search" type="radio" name="maxLivePeople" value="3" id="three">3人
+								</label>
+								<label for="four">
+									 <input type="radio" name="maxLivePeople" class="people_search" value="4" id="four">4人
+								</label>
+								<label for="five">
+									<input class="people_search" type="radio" name="maxLivePeople" value="5" id="five">5人
+								</label>
+								<label for="six">
+									 <input type="radio" name="maxLivePeople" class="people_search" value="6" id="six">6人
+								</label>
+								<label for="seven">
+									 <input type="radio" name="maxLivePeople" value="7" id="seven" class="people_search">6人以上
+								</label>
+							</li>
+						</ul>
+					</form>
+				</div>
+				<div class="main-content">
+					<div class="sort">
+						<label for="">价格排序：</label>
+						<select class="form-control sort-cont" id="orderByPrice">
+							<option value="">价格不排序</option>
+							<option value="DESC">价格由高到低</option>
+							<option value="ASC">价格由低到高</option>
+						</select>
+					</div>
+					<div class="hotel-list-cont">
+						<section>
+							<div class="hotel-list clearfix">
+								<div class="grid-b pic-show f-left">
+									<img src="img/room.jpg" alt="" />
+								</div>
+								<div class="grid-c after-line f-left">
+									<h3><span class="serial">1</span><a class="hotel-tit" href="">归来客栈</a></h3>
+									<p class="hotel-position"><a href="">[北环]</a>归来客栈|靠近北环加油站(恒昌加油站) </p>
+									<span>经济/客栈</span>
+									<p class="hotel-type">
+										<span>提供早餐</span><span>叫醒服务</span>
+									</p>
+									<span>不可取消</span>
+									<p class="least-person">
+										最多可住<span class="key-tag">15</span>人
+									</p>
+									<p class="map-cont">
+										<span class="hotel-map glyphicon glyphicon-map-marker"></span>
+										<a href="#" class="serach_position"  data-positionName="{{positionDetail}}" data-toggle="modal" data-target="#map_Modal">地图</a>
+									</p>
+									<p class="service">
+										<i class="fas fa-wifi" title="免费上网"></i>
+										<i class="fas fa-parking" title="免费停车"></i>
+										<i class="fas fa-dumbbell" title="健身房"></i>
+										<i class="fas fa-utensils" title="餐厅"></i>
+										<i class="fas fa-briefcase" title="行李寄存"></i>
+										<i class="fas fa-arrival" title="接机服务"></i>
+										<i class="fas fa-clock" title="叫醒服务"></i>
+										<i class="fa fa-comments" title="会议设施" aria-hidden="true"></i>
+										<i class="fas fa-swimming-pool" title="游泳馆"></i></i>
+									</p>
+								</div>
+								<div class="detail-cont grid-r f-left">
+									<p class="price">￥<strong	>1200</strong>起</p>
+									<p>仅剩1间</p>
+									<a class="detail-btn" href="">查看详情</a>
+								</div>
+							</div>
+						</section>
+						
+						<section>
+							<div class="hotel-list clearfix">
+								<div class="grid-b pic-show f-left">
+									<img src="img/room.jpg" alt="" />
+								</div>
+								<div class="grid-c after-line f-left">
+									<h3><span class="serial">2</span><a class="hotel-tit" href="">归来客栈</a></h3>
+									<p class="hotel-position"><a href="">[北环]</a>归来客栈|靠近北环加油站(恒昌加油站) </p>
+									<span>经济/客栈</span>
+									<p class="hotel-type">
+										<span>提供早餐</span><span>叫醒服务</span>
+									</p>
+									<span>不可取消</span>
+									<p class="least-person">
+										最多可住<span class="key-tag">15</span>人
+									</p>
+									<p class="map-cont">
+										<span class="hotel-map glyphicon glyphicon-map-marker"></span>
+										<a href="#" class="serach_position"  data-positionName="{{positionDetail}}" data-toggle="modal" data-target="#map_Modal">地图</a>
+									</p>
+									<p class="service">
+										<i class="fas fa-wifi" title="免费上网"></i>
+										<i class="fas fa-parking" title="免费停车"></i>
+										<i class="fas fa-dumbbell" title="健身房"></i>
+										<i class="fas fa-utensils" title="餐厅"></i>
+										<i class="fas fa-briefcase" title="行李寄存"></i>
+										<i class="fas fa-arrival" title="接机服务"></i>
+										<i class="fas fa-clock" title="叫醒服务"></i>
+										<i class="fa fa-comments" title="会议设施" aria-hidden="true"></i>
+										<i class="fas fa-swimming-pool" title="游泳馆"></i></i>
+									</p>
+								</div>
+								<div class="detail-cont grid-r f-left">
+									<p class="price">￥<strong	>1200</strong>起</p>
+									<p>仅剩1间</p>
+									<a class="detail-btn" href="">查看详情</a>
+								</div>
+							</div>
+						</section>
+						
+						<section>
+							<div class="hotel-list clearfix">
+								<div class="grid-b pic-show f-left">
+									<img src="img/room.jpg" alt="" />
+								</div>
+								<div class="grid-c after-line f-left">
+									<h3><span class="serial">3</span><a class="hotel-tit" href="">归来客栈</a></h3>
+									<p class="hotel-position"><a href="">[北环]</a>归来客栈|靠近北环加油站(恒昌加油站) </p>
+									<span>经济/客栈</span>
+									<p class="hotel-type">
+										<span>提供早餐</span><span>叫醒服务</span>
+									</p>
+									<span>不可取消</span>
+									<p class="least-person">
+										最多可住<span class="key-tag">15</span>人
+									</p>
+									<p class="map-cont">
+										<span class="hotel-map glyphicon glyphicon-map-marker"></span>
+										<a href="#" class="serach_position"  data-positionName="{{positionDetail}}" data-toggle="modal" data-target="#map_Modal">地图</a>
+									</p>
+									<p class="service">
+										<i class="fas fa-wifi" title="免费上网"></i>
+										<i class="fas fa-parking" title="免费停车"></i>
+										<i class="fas fa-dumbbell" title="健身房"></i>
+										<i class="fas fa-utensils" title="餐厅"></i>
+										<i class="fas fa-briefcase" title="行李寄存"></i>
+										<i class="fas fa-arrival" title="接机服务"></i>
+										<i class="fas fa-clock" title="叫醒服务"></i>
+										<i class="fa fa-comments" title="会议设施" aria-hidden="true"></i>
+										<i class="fas fa-swimming-pool" title="游泳馆"></i></i>
+									</p>
+								</div>
+								<div class="detail-cont grid-r f-left">
+									<p class="price">￥<strong	>1200</strong>起</p>
+									<p>仅剩1间</p>
+									<a class="detail-btn" href="">查看详情</a>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+				<div class="paging">
+					<p>共1页，当前第1页，共3家客房</p>
+				</div>
+			</div>
+		</section>
+		<foooter>
+			<div class="foot-bg">
+				<div class="container">
+					<div class="purpose clearfix">
+						<ul>
+							<li><a href="#">为什么选择我们</a></li>
+							<li><a href="#">放心服务</a></li>
+							<li><a href="#">放心的胡杨林游玩价格</a></li>
+						</ul>
+						<ul>
+							<li><a href="">我们的优势是什么</a></li>
+							<li><a href="">阿拉善盟额济纳旗胡杨林旅游专属网站</a></li>
+							<li><a href="">系统的服务</a></li>
+						</ul>
+						<ul>
+							<li><a href="">我们有什么服务</a></li>
+							<li><a href="">胡杨林旅游门票预定</a></li>
+							<li><a href="">胡杨林宾馆家庭旅店预定，找住处不愁</a></li>
+							<li><a href="">胡杨林美食，景点推荐，让您一目了然</a></li>
+						</ul>
+						<ul>
+							<li><a href="">为什么信任我们</a></li>
+							<li><a href="">本网站由额济纳旗众态生态治理有限公司创办</a></li>
+							<li><a href="">有10余年的接待旅客经验</a></li>
+							<li><a href="">跟阿里云合作创办</a></li>
+						</ul>
+					</div>
+					<div class="license">
+						<p>Copyright ©2018 alshyl.com.All rights reserved.版权所有 ICP证：蒙ICP备18003583号 阿拉善额济纳旗胡杨林旅游网</p>
+						<p>免责声明：本站部分内容来源于互联网。如果本站内容侵犯您的权益，请您告知，站长会立即处理。</p>
+						<p>本站力争为大家提供最好最全的阿拉善旅游信息, 旨在为您提供更多最新阿拉善，胡杨林，沙漠冲浪，最新动态等旅游信息。</p>
+					</div>
+				</div>
+			</div>
+			
+		</foooter>
+	<script src="common/lib/jquery/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<script src="common/lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+	<script src="common/lib/dataTimerPicker/bootstrap-datetimepicker.min.js"></script>
+	<script src="common/lib/dataTimerPicker/bootstrap-datetimepicker.zh-CN.js"></script>
+	<script src="js/hotel.js"></script>
+	</body>
+</html>
