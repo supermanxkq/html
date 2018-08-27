@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="common/css/common.css" />
 		<link rel="stylesheet" href="common/lib/bootstrap-3.3.7-dist/css/bootstrap.css" />
 		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<link rel="stylesheet" type="text/css" href="css/zoomify.min.css" />
 	</head>
 
@@ -42,9 +43,9 @@
 		</header>
 
 		<article class="htmleaf-container container">
-			<header class="htmleaf-header">
-				<h1>阿拉善额济纳旗景色 </h1>
-			</header>
+			<div class="news">
+				<h3>阿拉善额济纳旗景色 </h3>
+			</div>
 			<div class="wall clearfix">
 				<a class="article" href="#">
 					<img src="img/1.jpg" />
@@ -149,8 +150,8 @@
 				$('.wall').jaliswall({
 					item: '.article'
 				});
-				
-		        $('.article img').zoomify();
+
+				$('.article img').zoomify();
 			});
 		</script>
 	</body>
