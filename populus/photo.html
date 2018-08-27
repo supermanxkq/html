@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="common/css/common.css" />
 		<link rel="stylesheet" href="common/lib/bootstrap-3.3.7-dist/css/bootstrap.css" />
 		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/zoomify.min.css" />
 	</head>
 
 	<body>
@@ -40,42 +41,39 @@
 			</div>
 		</header>
 
-		
-			<article class="htmleaf-container container">
-				<header class="htmleaf-header">
-					<h1>阿拉善额济纳旗景色 </h1>
-				</header>
-				<div class="wall clearfix">
-					<a class="article" href="#">
-						<img src="img/1.jpg" />
-						<h2>胡林杨</h2>
-					</a>
-					<div class="article">
-						<img src="img/2.jpg" />
-						<h2>胡林杨</h2>
-					</div>
-					<div class="article">
-						<img src="img/pic001.jpg" />
-						<h2>胡林杨</h2>
-					</div>
-					<div class="article">
-						<img src="img/pic001.png" />
-						<h2>胡林杨</h2>
-					</div>
-					<div class="article">
-						<img src="img/pic002.jpg" />
-						<h2>胡林杨</h2>
-					</div>
-					<div class="article">
-						<img src="img/pic003.jpg" />
-						<h2>胡林杨</h2>
-					</div>
-
+		<article class="htmleaf-container container">
+			<header class="htmleaf-header">
+				<h1>阿拉善额济纳旗景色 </h1>
+			</header>
+			<div class="wall clearfix">
+				<a class="article" href="#">
+					<img src="img/1.jpg" />
+					<h2>胡林杨</h2>
+				</a>
+				<div class="article">
+					<img src="img/2.jpg" />
+					<h2>胡林杨</h2>
+				</div>
+				<div class="article">
+					<img src="img/pic001.jpg" />
+					<h2>胡林杨</h2>
+				</div>
+				<div class="article">
+					<img src="img/pic001.png" />
+					<h2>胡林杨</h2>
+				</div>
+				<div class="article">
+					<img src="img/pic002.jpg" />
+					<h2>胡林杨</h2>
+				</div>
+				<div class="article">
+					<img src="img/pic003.jpg" />
+					<h2>胡林杨</h2>
 				</div>
 
-			</article>
+			</div>
 
-		
+		</article>
 
 		<foooter>
 			<div class="foot-bg">
@@ -144,12 +142,15 @@
 
 		<script src="common/lib/jquery/jquery-3.2.1.min.js" type="text/javascript"></script>
 		<script src="common/lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
-		<script src="js/jaliswall.js"text/javascript"></script>
+		<script src="js/jaliswall.js" type="text/javascript"></script>
+		<script src="js/zoomify.min.js" type="text/javascript " charset="utf-8 "></script>
 		<script>
 			$(function() {
 				$('.wall').jaliswall({
 					item: '.article'
 				});
+				
+		        $('.article img').zoomify();
 			});
 		</script>
 	</body>
