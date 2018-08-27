@@ -1,0 +1,160 @@
+.hotel-pic{
+	width:62%;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-container{
+	height: 360px;
+}
+.map-detail{
+	margin-top: 20px;
+}
+
+
+
+.hotel-list-cont{
+	padding: 0 30px;
+}
+.hotel-list{
+	border-bottom: 1px solid #E5E5E5;
+}
+.grid-b{
+	width:28%
+}
+.grid-c{
+	width:42%
+}
+.grid-r{
+	width: 29%;
+}
+.grid-b > img{
+	display: block;
+	width: 250px;
+	height: 180px;
+}
+.pic-show{
+	padding: 30px 0;
+}
+.after-line{
+	position: relative;
+}
+.after-line:after{
+	content: "";
+	width: 1px;
+	height: 190px;
+	background-color: #E5E5E5;
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+.serial{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #FF9900;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+	color: #FFFFFF;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.hotel-tit{
+	color:  #FF9900;
+	font-size: 20px;
+}
+.hotel-tit:hover{
+	color:#FF9900;
+}
+.key-tag{
+	color: #ff0000;
+}
+.detail-cont p{
+	text-align: center;
+	font-size: 14px;
+	color: #FF0000;
+}
+.price{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.price  > strong{
+	font-size: 26px;
+}
+.detail-btn{
+	display: block;
+	width:240px;
+	height:45px;
+	margin: 40px auto 30px;
+	text-align: center;
+	line-height: 45px;
+	color: #FFFFFF;
+	background-color: #d9534f;
+	border-radius: 4px;
+	font-size: 16px;
+}
+.detail-btn:hover{
+	color:#FFFFFF;
+}
+
+/*酒店信息*/
+.service_icon_list {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    width: 60%;
+}
+.service-active , .service-active > p{
+	color: #FF9900;
+}
+.service-disable , .service-disable > p{
+	color:#dfe1e4;
+}
+.service_icon ul li i {
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+.service-icon-cont {
+	padding: 20px;
+}
+.service-icon-cont li{
+	float: left;
+}
+.service_icon ul li {
+    float: left;
+    margin-right: 38px;
+    text-align: center;
+}
+.hotel_detail{
+	width: 60%;
+}
+.hotel_detail dl{
+	padding-top: 20px;
+}
+.hotel_detail dt {
+    width: 100px;
+    float: left;
+}
+.hotel_detail i {
+    margin-right: 8px;
+}
+.hotel_detail dd {
+    margin-left: 105px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EEE;
+}
+.hotel-msg{
+	padding-bottom: 60px;
+}
+
+#allmap {
+	width: 100%;
+	height: 50%;
+	margin: 0;
+	overflow: hidden;
+	font-family: "微软雅黑";
+}
