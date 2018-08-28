@@ -1,0 +1,125 @@
+.reverse-msg{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.reserve-left{
+	width:28%;
+	border: 1px solid #E5E5E5;
+	border-radius: 2px;
+	padding: 20px;
+	margin-right: 30px;
+}
+.reserve-left > img {
+	width: 100%;
+	height: 200px;
+	display: block;
+	margin-bottom: 15px;
+}
+.room-details{
+	border-top: 1px solid #E5E5E5;
+}
+.room-details li{
+	padding: 5px 0;
+}
+.room-details li span{
+	color: #999;
+}
+.fas{
+	margin-right:5px;
+}
+
+
+
+.reserve-right{
+	width: 69%;
+	border: 1px solid #E5E5E5;
+	border-radius: 2px;
+	padding: 20px;
+}
+.reserve-time input{
+	width: 85px;
+	border: none;
+	outline: none;
+}
+.reach{
+	margin: 0 15px;
+}
+.total-time{
+	margin-left: 80px;
+}
+.total-time input{
+	width: 30px;
+}
+.reserve-number input{
+	padding-left:10px
+}
+.reserve-money strong{
+	color: #FF0000
+}
+.msg-cont{
+	border-bottom: 1px dashed #E5E5E5;
+}
+.input-cont:first-child{
+	margin-top: 20px;
+}
+.input-cont{
+	margin-bottom: 20px;
+}
+.input-cont label{
+	font-weight: normal;
+}
+.input-cont input{
+	display: inline-block;
+	width: 220px;
+	height: 34px;
+	border: 1px solid #E5E5E5;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.reserve-notice{
+	margin-top: 30px;
+}
+.reserve-notice > p{
+	color: #FF8400;
+	font-size: 16px;
+}
+.mark-i{
+	color: #FF0000;
+}
+.reserve-notice li{
+	line-height: 24px;
+	position: relative;
+}
+.reserve-notice li:before{
+	content: "●";
+	margin-right: 5px;
+	color: #333333;
+}
+
+.pay-online{
+	margin-top: 20px;
+	float: right;
+}
+.pay-online span{
+	font-size: 16px;
+	margin-right: 20px;
+}
+.pay-btn{
+	display: inline-block;
+	width: 150px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	color: #FFFFFF;
+	background-color: #d43f3a;
+	border-radius: 4px;
+}
+.pay-btn:hover,.pay-btn:focus,.pay-btn:active,.pay-btn:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.rms{
+	margin-top: 20px;
+}
