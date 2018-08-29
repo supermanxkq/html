@@ -9,6 +9,9 @@
 		<link rel="stylesheet" type="text/css" href="common/css/common.css" />
 		<link rel="stylesheet" type="text/css" href="common/lib/bootstrap-3.3.7-dist/css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="common/lib/dataTimerPicker/bootstrap-datetimepicker.min.css" />
+		<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+		integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+		crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/hotel.css" />
 	</head>
 	<body>
@@ -177,7 +180,7 @@
 						</select>
 					</div>
 					<div class="hotel-list-cont">
-						<section>
+						<!--<section>
 							<div class="hotel-list clearfix">
 								<div class="grid-b pic-show f-left">
 									<img src="img/room.jpg" alt="" />
@@ -195,7 +198,7 @@
 									</p>
 									<p class="map-cont">
 										<span class="hotel-map glyphicon glyphicon-map-marker"></span>
-										<a href="#" class="serach_position"  data-positionName="{{positionDetail}}" data-toggle="modal" data-target="#map_Modal">地图</a>
+										<a href="#" class="serach_position"  data-positionName="恒昌加油站" data-toggle="modal" data-target="#map_Modal">地图</a>
 									</p>
 									<p class="service">
 										<i class="fas fa-wifi" title="免费上网"></i>
@@ -296,6 +299,14 @@
 								</div>
 							</div>
 						</section>
+					-->
+						<section>	
+							<div class="no-data">
+								<img src="img/cry.png" alt="" />
+								<p class="sorry">很抱歉，没有找到符合您条件的酒店！</p>
+								<p>建议您适当减少已选择的条件。</p>
+							</div>
+						</section>
 					</div>
 				</div>
 				<div class="paging">
@@ -337,12 +348,46 @@
 					</div>
 				</div>
 			</div>
-			
 		</foooter>
+		
+		
+		<div class="row mapdiv">
+			<div class="col-md-4">
+				<div class="modal fade" id="map_Modal" tabindex="-1" role="dialog"
+					aria-labelledby="myModalLabel">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal"
+									aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<h4 class="modal-title" id="myModalLabel">百度地图</h4>
+							</div>
+							<div class="modal-body">
+								<div id="allmap"></div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default"
+									data-dismiss="modal">关闭</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div id="loading" class="loading">
+				<i class="fa fa-spinner fa-spin" style="font-size: 30px;"></i>
+			</div>
+		</div>
+		
+		
 	<script src="common/lib/jquery/jquery-3.2.1.min.js" type="text/javascript"></script>
 	<script src="common/lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 	<script src="common/lib/dataTimerPicker/bootstrap-datetimepicker.min.js"></script>
 	<script src="common/lib/dataTimerPicker/bootstrap-datetimepicker.zh-CN.js"></script>
+	<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=I8etwW6lIuHDbVTQEsi9IbkL"></script>
 	<script src="js/hotel.js"></script>
 	</body>
 </html>

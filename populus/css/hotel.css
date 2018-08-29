@@ -168,3 +168,41 @@
 	padding-left:30px;
 	margin-bottom:40px;
 }
+
+
+.service .fas{
+	margin-right: 20px;
+}
+
+
+#allmap {
+	width: 100%;
+	height: 400px;
+	margin: 0;
+	overflow: hidden;
+	font-family: "微软雅黑";
+}
+.loading{
+	display: none;
+	position: absolute;
+	top: 475px;
+	left: 50%;
+	margin-left: -22px;
+}
+
+.no-data{
+	padding: 50px;
+}
+.no-data p{
+	text-align: center;
+}
+.sorry{
+	font-weight: bold;
+	font-size: 16px;
+}
+.no-data > img{
+	display: block;
+	width: 120px;
+	margin: 0 auto 20px;
+	border-radius:4px;
+}
