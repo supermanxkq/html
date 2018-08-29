@@ -1,5 +1,3 @@
-
-
 .article {
 	display: block;
 	margin: 0 0 30px 0;
@@ -10,12 +8,14 @@
 	transition: all 220ms;
 }
 
+
 /*.article:hover {
 	box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.1);
 	transform: translateY(-5px);
 	transition: all 220ms;
 }
 */
+
 .article>img {
 	display: block;
 	width: 100%;
@@ -57,4 +57,36 @@
 		width: auto;
 		float: none;
 	}
+}
+
+.page {
+	text-align: center;
+	margin-top: 45px;
+}
+
+.pagination>li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+	background: #FF9A47;
+	color: #fff;
+	border-color: #FF9A47;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+	font-size: 16px;
+	color: #949BA9;
+	text-decoration: none;
+	background: #FFFFFF;
+	border: 1px solid #BFC5D2;
+	border-radius: 2px;
+	margin-left: 0;
 }
