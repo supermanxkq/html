@@ -1,0 +1,126 @@
+.contact>h3 {
+	font-size: 22px;
+	color: #333333;
+	line-height: 50px;
+	border-bottom: 1px solid #EFEFF4;
+}
+
+.companyProfileText h3 {
+	height: 30px;
+	line-height: 30px;
+	font-size: 30px;
+	color: #3c3c3c;
+	margin-top: 6%;
+}
+
+.innovationList,
+.companyProfileText .companyProfileTextp {
+	width: 100%;
+	font-size: 18px;
+	margin-top: 3%;
+	padding: 5%;
+	background-color: #f9f9f9;
+	border-top: 3px solid #e60012;
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.companyProfileText .companyProfileTextp p {
+	line-height: 1.5;
+}
+
+.columEntH3 {
+	font-size: 32px !important;
+	height: 32px;
+	line-height: 30px;
+	font-size: 100%;
+	text-align: left;
+	color: #000000;
+	font-weight: 400;
+	margin-bottom: 30px;
+	border-left: 5px solid #e60012;
+	padding-left: 16px;
+}
+
+.innovationList p {
+	margin: 20px;
+	padding: 10px 0;
+	font-size: 18px;
+	border-bottom: 1px dashed #b2b0a8;
+}
+
+.innovationList p span {
+	color: #FF8400;
+	font-weight: bold;
+}
+
+.pick-cont h6 {
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+	color: #FF8400;
+}
+.telarea dl{
+	margin-bottom: 0!important;
+}
+.telarea dt {
+	display: inline-block;
+	width: 45%;
+}
+
+.telarea dt img {
+	width: 95%;
+}
+
+.telarea dd {
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+}
+
+.telarea dd a {
+	display: block;
+	text-align: left;
+	font-size: 16px;
+	color: #383838;
+	line-height: 40px;
+}
+
+.telarea_l {
+	float: left;
+	width: 49%;
+	border-right: #ccc 1px dashed;
+	padding: 30px 10px;
+	border-bottom: #ccc 1px dashed;
+}
+.telarea_l:nth-of-type(even){
+	border-right: none !important;
+
+}
+.tlist {
+	margin: 8px 5px;
+	padding: 0px;
+	text-align: left;
+}
+
+.tlist li {
+	padding: 10px 0;
+}
+
+.pick-cont {
+	padding: 5% 10px;
+}
+
+.tlist .icon img {
+	width: 25px;
+	margin-right: 10px;
+}
+
+
+/*.tlist .icon span {
+	font-weight: bold;
+	color: #d81e06;
+}*/
