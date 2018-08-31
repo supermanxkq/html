@@ -6,8 +6,6 @@
 }
 
 .food-scenery-list{
-	width: 23%;
-	float: left;
 	border: 1px solid #E5E5E5;
 	margin: 10px;
 	box-shadow: 0px 0px 4px 4px rgba(2, 2, 2, 0.05);
@@ -36,4 +34,42 @@
 }
 .scenery-intro .food-scenery-list figcaption h4{
 	color: #0E88EB;
+}
+
+
+.article {
+	display: block;
+	margin: 0 0 30px 0;
+	border-radius: 3px;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+	transition: all 220ms;
+}
+
+.wall {
+	display: block;
+	position: relative;
+	margin-top: 30px;
+}
+
+.wall-column {
+	display: block;
+	position: relative;
+	/*width: 33.333333%;*/
+	width: 25%;
+	float: left;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+	.wall-column {
+		width: 50%;
+	}
+}
+
+@media (max-width: 480px) {
+	.wall-column {
+		width: auto;
+		float: none;
+	}
 }
