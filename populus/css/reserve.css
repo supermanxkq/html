@@ -123,3 +123,8 @@
 .rms{
 	margin-top: 20px;
 }
+.error{
+	color:#FF0000;
+	font-size: 12px;
+	margin-left: 30px;
+}
