@@ -5,6 +5,11 @@ body{
 	width:1200px!important;
 	margin: 0 auto;
 }
+@media (min-width: 768px){
+	.container{
+		width:100%!important;
+	}
+}
 .f-left{
 	float: left;
 }
