@@ -2,12 +2,16 @@ body{
 	background-color: #FFFFFF;
 }
 .container{
-	width:1200px!important;
 	margin: 0 auto;
 }
 @media (min-width: 768px){
 	.container{
 		width:100%!important;
+	}
+}
+@media (min-width: 1200px){
+	.container {
+    	width: 1200px!important;
 	}
 }
 .f-left{
