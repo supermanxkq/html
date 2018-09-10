@@ -41,7 +41,7 @@
 			</div>
 		</header>
 
-		<section>
+		<section class="midCont">
 			<div class="container">
 				<header>
 					<h3 class="recommend-tit">阿拉善额济纳旗沙漠冲浪预定</h3>
@@ -52,22 +52,37 @@
 						<dd>这里有一群追求刺激，挑战极限的人们，驾驶着越野车在茫茫的沙漠中自由的驰骋，他们将一切的烦恼抛在脑后，释放自己内心的狂野，他们像草原上飞奔的骏马，踏过山一样海一样的沙漠，他们面向太阳，追求自由的答案，即使失落失望失掉所有方向，也会泰然处之。他们是草原上的骏马，驰骋于万里黄沙之中，他们是天空中自由翱翔的苍鹰，历遍一切分雨创伤都不觉，他们是沙漠中的狼群，团结一致有着自己的信仰，他们就是沙漠中的越野e族，平凡的追梦者，疯狂的原始人。</dd>
 					</dl>
 				</div>
-				<div>
+				
+				<div class="shu">
 					<header>
 						<h3 class="recommend-tit">什么是沙漠冲浪？</h3>
 					</header>
-					<div class="surfing">
-						<div class="swiper-container">
-							<div class="swiper-wrapper">
-								<div class="swiper-slide" style="background-image:url(http://zhongtai-article-image.oss-cn-beijing.aliyuncs.com/article_img/1536099436165.png)"></div>
-								<div class="swiper-slide" style="background-image:url(http://zhongtai-article-image.oss-cn-beijing.aliyuncs.com/article_img/1536099442581.png)"></div>
-								<div class="swiper-slide" style="background-image:url(http://zhongtai-article-image.oss-cn-beijing.aliyuncs.com/article_img/1536099443889.png)"></div>
-								<div class="swiper-slide" style="background-image:url(http://zhongtai-article-image.oss-cn-beijing.aliyuncs.com/article_img/1536163682253.png)"></div>
+					<ul class="f-items clearfix">
+						<li class="f-item f-suffer">
+							<div class="f-wap">
+								<img src="http://zhongtai-article-image.oss-cn-beijing.aliyuncs.com/article_img/1536099436165.png"></a>
 							</div>
-							<!-- Add Pagination -->
-							<div class="swiper-pagination"></div>
-						</div>
-					</div>
+							<div class="f-tag">沙漠冲浪</div>
+						</li>
+						<li class="f-item f-suffer">
+							<div class="f-wap">
+								<img src="http://zhongtai-article-image.oss-cn-beijing.aliyuncs.com/article_img/1536099442581.png"></a>
+							</div>
+							<div class="f-tag">沙漠冲浪</div>
+						</li>
+						<li class="f-item f-suffer">
+							<div class="f-wap">
+								<img src="http://zhongtai-article-image.oss-cn-beijing.aliyuncs.com/article_img/1536099443889.png"></a>
+							</div>
+							<div class="f-tag">沙漠冲浪</div>
+						</li>
+						<li class="f-item f-suffer">
+							<div class="f-wap">
+								<img src="http://zhongtai-article-image.oss-cn-beijing.aliyuncs.com/article_img/1536163682253.png"></a>
+							</div>
+							<div class="f-tag">沙漠冲浪</div>
+						</li>
+					</ul>
 				</div>
 				<div class="shu">
 					<header>
@@ -105,15 +120,11 @@
 						<ul class="clearfix attach">
 							<li>
 								<img class="lazyload" src=" http://zhongtai-article-image.oss-cn-beijing.aliyuncs.com/article_img/1536164409637.jpeg " width="285" height="285">
-								<a class="name fn-an">
-									<em>烤全羊</em>
-								</a>
+							
 							</li>
 							<li>
 								<img class="lazyload" src=" http://zhongtai-article-image.oss-cn-beijing.aliyuncs.com/article_img/1536164439208.png " width="285" height="285">
-								<a class="name fn-an">
-									<em>羊骨</em>
-								</a>
+								
 							</li>
 
 						</ul>
@@ -224,6 +235,7 @@
 				pagination: '.swiper-pagination',
 				effect: 'cube',
 				grabCursor: true,
+				autoplay: 2000,
 				cube: {
 					shadow: true,
 					slideShadows: true,
